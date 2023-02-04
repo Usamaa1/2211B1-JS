@@ -60,3 +60,42 @@
 
 
 
+// unary
+
+ 
+// let a = 5;
+
+// a = a+1;
+
+
+// console.log(a)
+
+
+// binary
+
+// 2 + 3 =
+
+
+
+
+let userName = prompt('Enter your user name');
+let password = prompt('Enter your password');
+
+
+// if(userName === 'abc123'){
+//     alert('you have successfully login')
+// }else if(password === '321'){
+//     alert('unsuccessfull login')  
+// }
+
+
+
+
+
+
+
+
+
+
+
+
