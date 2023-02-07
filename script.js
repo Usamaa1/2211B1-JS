@@ -78,8 +78,8 @@
 
 
 
-let userName = prompt('Enter your user name');
-let password = prompt('Enter your password');
+// let userName = prompt('Enter your user name');
+// let password = prompt('Enter your password');
 
 
 // if(userName === 'abc123'){
@@ -87,6 +87,136 @@ let password = prompt('Enter your password');
 // }else if(password === '321'){
 //     alert('unsuccessfull login')  
 // }
+
+// alert('hfdshkj')
+
+
+
+
+
+
+
+// let a = prompt('Enter something')
+// let b = prompt('Enter something')
+
+// console.log(Number(a) + parseInt(b))
+
+
+
+
+
+
+
+
+
+// falsy values
+
+
+// 1 ------ true 
+// 0 ------ false
+
+
+
+
+
+
+
+
+
+
+// let  a = prompt('enter a number');
+
+
+
+
+
+
+
+
+
+// if(document.all){
+//     console.log('truth values')
+//     // a = 0
+// }else{
+//     console.log('false values')
+// }
+
+
+
+
+
+
+// comparision operator
+
+
+
+// = ----> not data type 9 ---> '9'
+// === ----> data type '9' -----> '9'
+// !=  ------> 10 ------> 9 ------> true 
+
+
+
+
+
+let age = prompt('Enter your age')
+
+
+
+
+// if(age >= 18){
+//     console.log('you are eligible')
+// }else{
+//     console.log('you are not eligible')
+// }
+
+// ternary operator
+
+
+
+// let b = age >=18 ? console.log('you are eligible') : console.log('you are not eligible')
+
+
+
+
+
+// Logical Operator
+
+
+
+// Logical AND operator
+
+// &&
+
+// - - ----> +
+
+// flase && false -------> false
+
+// flase && true -------> false
+
+// true && true --------> true
+
+// true && false -------> false
+
+
+
+// logical OR
+
+// ||
+
+// true || true -------> true
+// flase || true -------> true
+// true || false --------> true
+// flase || false --------> false
+
+
+// not operator
+
+// !
+
+
+// !true ----------> false
+// !false ---------> true
+
 
 
 
