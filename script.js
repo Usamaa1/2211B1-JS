@@ -62,7 +62,7 @@
 
 // unary
 
- 
+
 // let a = 5;
 
 // a = a+1;
@@ -235,31 +235,30 @@
 //     console.log('You are succesfully Login')
 // }else{
 //     console.log('Unvalid user Name or Password')
-    
+
 // }
 
 
-    
+
 // let v = ((userName === 'abc' || userName ===  '778') && password === '1234') ? console.log('You are succesfully Login') : console.log('Unsuccesfully Login')
 
 
 
-let percentage = prompt('Enter your Percentage')
 
 
 // if(percentage >= 90 && percentage <=100){
 //     console.log('A1')
 // }else if(percentage >= 80 && percentage < 90){
-//     console.log('A+')
-// }else if(percentage >= 70 && percentage < 80){
-//     console.log('A')
-// }else if(percentage >= 60 && percentage < 70){
-//     console.log('B')
-// }else if(percentage >= 50 && percentage < 60){
-//     console.log('C')
-// }else if(percentage >= 40 && percentage < 50){
-//     console.log('D')
-// }else if(percentage < 40){
+    //     console.log('A+')
+    // }else if(percentage >= 70 && percentage < 80){
+        //     console.log('A')
+        // }else if(percentage >= 60 && percentage < 70){
+            //     console.log('B')
+            // }else if(percentage >= 50 && percentage < 60){
+                //     console.log('C')
+                // }else if(percentage >= 40 && percentage < 50){
+                    //     console.log('D')
+                    // }else if(percentage < 40){
 //     console.log('F')
 // }else{
 //     console.log('Kindly enter valid percentage')
@@ -273,24 +272,103 @@ let percentage = prompt('Enter your Percentage')
 
 
 
+// let percentage = prompt('Enter your Percentage')
+// let grade;
+
+// // let remarks = prompt('Enter your Remarks')
+
+// if(percentage >= 70 && percentage <= 100){
+//     if(percentage >= 90){
+//         grade = 'A1'
+//         console.log(grade)
+        
+//     }else if(percentage >= 80){
+//         grade = 'A+'
+//         console.log(grade)
+//     }else if(percentage >= 70){
+//         grade = 'A'
+//         console.log(grade)
+//     }
+// }else if(percentage >= 60 && percentage < 70){
+//     grade = 'B'
+//     console.log(grade)
+// }else if(percentage >= 50 && percentage < 60){
+//     grade = 'C'
+//     console.log(grade)
+// }else if(percentage >= 40 && percentage < 50){
+//     grade = 'D'
+//     console.log(grade)
+// }else if(percentage < 40){
+//     grade = 'F'
+//     console.log(grade)
+// }else{
+//     console.log('Kindly enter valid percentage')
+// }
 
 
-if(percentage >= 70 && percentage <= 100){
-    if(percentage >= 90){
-        console.log('A1')
-    }else if(percentage >= 80){
-        console.log('A+')
-    }else if(percentage >= 70){
-        console.log('A')
-    }
-}else if(percentage >= 60 && percentage < 70){
-        console.log('B')
-    }else if(percentage >= 50 && percentage < 60){
-        console.log('C')
-    }else if(percentage >= 40 && percentage < 50){
-        console.log('D')
-    }else if(percentage < 40){
-        console.log('F')
-    }else{
-        console.log('Kindly enter valid percentage')
-    }
+
+//     switch (grade) {
+//             case 'A1':
+//                 console.log('Congratulation your Grade is A1 and you are Pass')
+//                 break;
+//             case 'A+':
+//                 console.log('Congratulation your Grade is A+ and you are Pass')
+//                 break;
+//             case 'A':
+//                 console.log('Congratulation your Grade is A and you are Pass')
+//                 break;
+//             case 'B':
+//                 console.log('Congratulation your Grade is B and you are Pass')
+//                 break;
+//             case 'C':
+//                 console.log('Congratulation your Grade is C and you are Pass')
+//                 break;
+//             case 'D':
+//                 console.log('Congratulation your Grade is D and you are Passk')
+//                 break;
+//             case 'F':
+//                 console.log('Sorry your Grade is F and you are Fail')
+//                 break;
+//             default:
+//                 console.log('Kindly Enter valid grade')
+//                 break;
+//         }
+
+
+
+
+
+
+// let days = prompt('Enter your day')
+
+
+
+
+
+// switch (days) {
+//     case 'Monday':
+//         console.log('First Day of the week')
+//         break;
+//     case 'Tuesday':
+//         console.log('Second Day of the week')
+//         break;
+//     case 'Wednesday':
+//         console.log('Third Day of the week')
+//         break;
+//     case 'Thursday':
+//         console.log('Fourth Day of the week')
+//         break;
+//     case 'Friday':
+//         console.log('Fifth Day of the week')
+//         break;
+//     case 'Saturday':
+//         console.log('Sixth Day of the week')
+//         break;
+//     case 'Sunday':
+//         console.log('Seventh Day of the week')
+//         break;
+//     default:
+//         console.log('kindly enter valid day name')
+//         break;
+// }
+
