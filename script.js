@@ -271,7 +271,6 @@
 
 
 
-
 // let percentage = prompt('Enter your Percentage')
 // let grade;
 
@@ -372,16 +371,83 @@
 //         break;
 // }
 
-let i = 0;
+// let i = 0;
 
-// while (i <= 10) {
+
+
+
+
+// while (true) {
 //     document.write(`hello ${i} <br>`);
-//     i++
+
 // }
 
 
-do {
-    document.write(` ${i} <br>`);
-    i++;
+// do {
+//     document.write(` ${i} <br>`);
+//     i++;
+//     }
+//  while (i < 10);
+
+
+
+// let j = true
+
+// for(; true; j++){
+//     document.write(`${j} <br>`)
+// }
+
+
+
+
+
+
+
+
+
+
+// for(i=0; i<100; i++){
+//     if(i%2===1){
+//         document.write(`${i} <br>`)
+     
+//     }
+//     if(i == '22'){
+//         document.write(`${i} <br>`)
+//     }
+// }
+
+
+
+
+
+
+
+// for(i=0; i<100; i++){
+//     if(i != 3){
+//         document.write(`${i} <br>`)
+//     }
+// }
+
+
+
+
+
+
+
+for(i=1; i<=5; i++){
+
+    document.write(`outerloop: ${i} <br>`)
+
+    for(j=0; j<=5; j++){
+        document.write(`innerloop: ${i} <br>`)
     }
- while (i < 10);
+}
+
+
+
+
+
+
+
+
+
