@@ -429,25 +429,156 @@
 // }
 
 
+// let i = prompt('enter starting number')
+// let k = prompt('enter ending number')
+
+
+
+// for(i=1; i<=k; i+=10){
+
+//     // document.write(`outerloop: ${i} <br>`)
+
+//     for(j=i; j<i+10; j++){
+//         document.write(` ${j} `)
+//     }
+//     document.write(`<br>`)
+// }
+
+
+
+
+// for(i=1; i<=5; i++){
+
+//     for(j=1; j<=i; j++){
+//         document.write(`${i}`)
+//     }
+
+//     document.write('<br>')
+
+// }
 
 
 
 
 
-for(i=1; i<=5; i++){
-
-    document.write(`outerloop: ${i} <br>`)
-
-    for(j=0; j<=5; j++){
-        document.write(`innerloop: ${i} <br>`)
-    }
-}
 
 
 
 
 
+// let a = 10;
+
+
+// let b;
+
+// b = a;
+
+// console.log(b)
+// console.log(a)
+
+
+
+// b = 30;
+
+// console.log(a)
+// console.log(b)
 
 
 
 
+
+// let products = ['Headphone','Earphones','Keyboard','Mouse',9000,3.4,true,false,null,undefined,NaN]
+
+// let products2;
+
+
+
+// products2 = products
+
+
+
+// console.log(`Products 1: ${products}`)
+// console.log(`Products 2: ${products2}`)
+
+
+
+
+
+// products2 = [300,434,9000,89]
+
+
+
+// products2.push('hello','World',808098)
+
+
+// products2.pop()
+
+
+
+
+
+
+// delete products2[2]
+
+
+
+
+
+// console.log(products2)
+
+
+
+
+
+
+
+
+
+
+
+
+// document.write(products)
+// document.write(products2)
+
+// console.log(a)
+
+
+// a= 20
+
+
+// console.log(a)
+
+
+// console.log(products)
+
+
+
+
+// products[4] = 5000
+
+// console.log(products)
+
+
+
+
+
+// document.write(products)
+
+// console.log(products[0])
+
+
+
+
+// for(i=0; i<products.length; i++){
+//     console.log(products[i])
+//     document.write(products[i] + '<br>')
+    
+// }
+
+
+
+
+
+
+
+let arrays = []
