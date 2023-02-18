@@ -464,8 +464,6 @@
 
 
 
-
-
 // let a = 10;
 
 
@@ -581,4 +579,136 @@
 
 
 
-let arrays = []
+// 2,3,5
+
+
+// .push(4)
+
+
+// 2,3,5,4
+
+
+// .unshift(1)
+
+// 2,3,5,4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let arrays = [2,3,5,'hello',4,9,4,'hello',7,8]
+
+
+// console.log(arrays)
+
+
+// arrays.push(9000)
+
+// console.log(arrays)
+
+
+// arrays.pop()     //delete end values
+
+
+// console.log(arrays)
+
+
+
+
+// arrays.unshift(1)
+// console.log(arrays)
+
+
+
+// arrays.shift(1)      //delete first values
+// console.log(arrays)
+// document.write(arrays.pop())
+
+
+// delete arrays[1]
+
+
+// console.log(arrays)
+// document.write(arrays)
+
+
+// arrays[1] = 45
+// arrays[2] = 25
+
+
+// console.log(arrays)
+
+
+
+
+
+// let b = arrays.slice(0,4)
+
+// console.log(b)
+
+
+
+// arrays.splice(2,4,'hello')
+// console.log(arrays)
+
+
+
+
+
+
+
+
+// console.log(arrays.indexOf('hello'))
+// console.log(arrays.lastIndexOf('hello'))
+
+
+
+let c = 3;
+
+let d = c
+console.log(c)
+console.log(d)
+
+
+ d= 9;
+
+
+
+
+
+console.log(c)
+console.log(d)
+
+
+
+
+
+
+let a = [1,2,3,4,5]
+
+
+
+let b = [...a]    //cloning
+
+
+console.log(`before change a: ${a}`)
+console.log(`before change b: ${b}`)
+
+
+
+b[2] = 'hello'
+
+console.log(`after change a: ${a}`)
+console.log(`after change b: ${b}`)
