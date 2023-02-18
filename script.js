@@ -675,40 +675,145 @@
 
 
 
-let c = 3;
+// let c = 3;
 
-let d = c
-console.log(c)
-console.log(d)
-
-
- d= 9;
+// let d = c
+// console.log(c)
+// console.log(d)
 
 
-
-
-
-console.log(c)
-console.log(d)
+//  d= 9;
 
 
 
 
 
-
-let a = [1,2,3,4,5]
-
-
-
-let b = [...a]    //cloning
-
-
-console.log(`before change a: ${a}`)
-console.log(`before change b: ${b}`)
+// console.log(c)
+// console.log(d)
 
 
 
-b[2] = 'hello'
 
-console.log(`after change a: ${a}`)
-console.log(`after change b: ${b}`)
+
+
+// let a = [1,2,3,4,5]
+
+
+
+// let b = [...a]    //cloning
+
+
+// console.log(`before change a: ${a}`)
+// console.log(`before change b: ${b}`)
+
+
+
+// b[2] = 'hello'
+
+// console.log(`after change a: ${a}`)
+// console.log(`after change b: ${b}`)
+
+
+
+
+
+// let a = [2,3,5,9,77,8,99,76]
+
+
+
+// let b = a.slice(1,4)
+
+
+
+// console.log(b)
+
+// a.splice(2,4, 'hello','bye','hi')
+
+
+
+// console.log(a)
+
+
+
+
+
+
+   
+
+
+// let num1 = 23;
+
+
+// let num2 = num1;
+
+
+
+
+// console.log(num1)
+// console.log(num2)
+
+
+
+
+
+// num2 = 90;
+
+
+
+
+// console.log(num1)
+// console.log(num2)
+
+
+
+
+
+
+// let arrays = [3,4,6,7]
+
+
+
+// let copy = arrays;
+
+
+
+// console.log('arrays: ' + arrays)
+// console.log('copy: ' + copy)
+
+
+
+
+
+// copy[0] = 'hello'
+
+
+// console.log('arrays second: ' + arrays)
+// console.log('copy second: ' + copy)
+
+ 
+
+// let arrays1 = [2,3,4]
+// let arrays2 = [5,6,7]
+// let arrays3 = [8,9,0]
+// let arrays3 = ['hello','how are', 'you?']
+
+
+
+
+
+// let a = arrays1.concat(arrays2,arrays3)
+
+// console.log(a)
+
+
+// let a = arrays3.join('-')
+
+// console.log(a)
+
+
+
+
+
+
+
+
