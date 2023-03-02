@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+    <form action="" onsubmit="weather(); return false">
+        <label for="">City Name</label><br>
+        <input type="text" name="" id="cityName"><br>
+        <input type="submit" name="" id="" value="check">
+    </form>
+
+
+    <div class="temp"></div>
+
+
+
+    <script>
+
+
+
+        function weather() {
+
+            let cityName = document.getElementById('cityName').value
+
+            let temp = document.getElementsByClassName('temp')[0]
+
+
+            // Make a request for a user with a given ID
+            axios.get(`http://api.weatherapi.com/v1/current.json?key=fb8744c0e925446f9de51537230203&q=${cityName}`)
+                .then(function (response) {
+                    // handle success
+                    console.log(response);
+                    temp.innerHTML = `Temperature in Centigrade : ${response.data.current.temp_c}`
+                    console.log(response.data.current.humidity);
+                })
+                .catch(function (error) {
+                    // handle error
+                    console.log(error);
+                })
+                .finally(function () {
+                    // always executed
+                });
+
+        }
+
+
+    </script>
+
+
+</body>
+
+</html>
