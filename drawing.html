@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 100vh;
+            border: 1px solid salmon;
+        }
+        #draw{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- <div class="container" id="container"></div> -->
+
+    <canvas id="draw" width="600" height="700"></canvas>
+
+
+
+    <input type="color" name="" id="clr" >
+
+
+
+
+    <script>
+
+        let draw = document.getElementById('draw')
+        let ctx = draw.getContext('2d')
+
+        let color = document.getElementById('clr')
+
+
+        color.addEventListener('change',()=>{
+            console.log(color.value)
+        })
+
+
+
+
+
+        // console.log(color)
+
+
+        let isMouseUp = false
+
+
+
+        draw.addEventListener('mouseup',()=>{
+            console.log('mouse up')
+          ctx.beginPath();
+            isMouseUp = false
+        })
+
+
+
+        draw.addEventListener('mousedown',()=>{
+            console.log('mouse down')
+
+            isMouseUp = true
+        })
+
+
+        draw.addEventListener('mousemove',(e)=>{
+            if(isMouseUp){
+
+
+                ctx.lineTo(e.offsetX, e.offsetY)
+                ctx.lineWidth = 10;
+                ctx.lineCap = 'round'
+                ctx.stroke();
+                ctx.strokeStyle = color.value
+                ctx.beginPath();
+                ctx.moveTo(e.offsetX, e.offsetY)
+                console.log('mouse move', e)
+
+            }
+        })
+
+
+    </script>
+
+
+
+</body>
+</html>

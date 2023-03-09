@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+
+
+    <form action="" onsubmit="weather(); return false">
+        <label for="">Enter your City</label><br>
+        <input type="text" name="" id="cityName"><br>
+        <input type="submit" value="Check">
+    </form>
+
+
+
+
+    <div class="temp"></div>
+    <div class="humidity"></div>
+
+    <img src="" alt="" id="icon">
+
+
+
+
+
+
+
+
+    <script>
+
+
+
+        function weather(){
+
+           let city = document.getElementById('cityName').value
+
+
+           let temp = document.getElementsByClassName('temp')[0]
+           let humidity = document.getElementsByClassName('humidity')[0]
+           let icon = document.getElementById('icon')
+
+
+
+
+
+            axios.get(`http://api.weatherapi.com/v1/current.json?key=cf9a2b4b390944269ef43149230403&q="${city}"`)
+            .then(function (response) {
+                // handle success
+                console.log(response)
+                console.log(response.data.current.temp_c);
+                console.log(response.data.current.temp_f);
+
+                temp.innerHTML =   `temp in Centigrade is : ${response.data.current.temp_c}`
+                humidity.innerHTML =   `Humidity is : ${response.data.current.humidity}`
+                icon.src = `https:${response.data.current.condition.icon}`
+
+            })
+            .catch(function (error) {
+                // handle error
+                console.log(error);
+            })
+            .finally(function () {
+                // always executed
+            });
+
+
+
+        }
+
+
+
+      
+
+    </script>
+</body>
+
+</html>
